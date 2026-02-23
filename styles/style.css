@@ -1,0 +1,55 @@
+body{}
+
+h1{
+    color: rgb(111, 71, 37);
+}
+
+div{
+    background-color: rgb(255, 203, 211);
+    width: 50vw;
+}
+
+.divrojo{
+    background-color: rgb(255, 87, 87);
+}
+
+#divUnico {
+    background-color: brown;
+}
+#dibujo {
+    width: 50vw;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cara {
+    background-color: rgb(99, 76, 64);
+    width: 30vw;
+    height: 40vw;
+    border-radius: 60vw;
+}
+.ojos {
+    background-color: blanchedalmond;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 60vw;
+    position: absolute
+}
+#ojoIzq {
+    top: 80%;
+    left: 15%;
+}
+#ojoDer {
+    top: 80%;
+    left: 28%;
+}
+.boca {
+    background-color: rgb(249, 121, 221);
+    width: 10vw;
+    height: 5vw;
+    border-radius: 40vw;
+    top: 100%;
+    left: 50;
+
+}
