@@ -44,12 +44,85 @@ div{
     top: 80%;
     left: 28%;
 }
-.boca {
-    background-color: rgb(249, 121, 221);
-    width: 10vw;
-    height: 5vw;
+.lengua {
+    background-color: rgb(249, 121, 121);
+    width: 17vw;
+    height: 10vw;
     border-radius: 40vw;
-    top: 100%;
-    left: 50;
-
+    transform:rotateZ(270deg);
+    position:absolute;
+    top: 118%;
+    left: 19%;
+}
+.boca {
+    width: 20vw;
+    height: 10vw;
+    background-color: rgb(255, 161, 235);
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 110%;
+    left: 18%;
+}
+.pupIzq {
+    background-color: black;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50vw;
+    position: absolute;
+    top: 90%;
+    left: 17%;
+}
+.pupDer {
+    background-color: black;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50vw;
+    position: absolute;
+    top: 90%;
+    left: 30%;
+}
+.pelo1 {
+    background-color: rgb(81, 61, 61);
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50vw;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+.pelo2 {
+    background-color: rgb(81, 61, 61);
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50vw;
+    position: absolute;
+    top: 55%;
+    left: 17%;
+}
+.pelo3 {
+    background-color: rgb(81, 61, 61);
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50vw;
+    position: absolute;
+    top: 53%;
+    left: 24%;
+}
+.pelo4 {
+    background-color: rgb(81, 61, 61);
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50vw;
+    position: absolute;
+    top: 55%;
+    left: 31%;
+}
+.pelo5 {
+    background-color: rgb(81, 61, 61);
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50vw;
+    position: absolute;
+    top: 62%;
+    left: 36%;
 }
