@@ -37,11 +37,11 @@ div{
     position: absolute
 }
 #ojoIzq {
-    top: 80%;
+    top: 40%;
     left: 15%;
 }
 #ojoDer {
-    top: 80%;
+    top: 40%;
     left: 28%;
 }
 .lengua {
@@ -51,17 +51,17 @@ div{
     border-radius: 40vw;
     transform:rotateZ(270deg);
     position:absolute;
-    top: 118%;
-    left: 19%;
+    top: 72%;
+    left: 18%;
 }
 .boca {
     width: 20vw;
     height: 10vw;
     background-color: rgb(255, 161, 235);
-    border-radius: 0 0 50px 50px;
+    border-radius: 0 0 200px 200px;
     position: absolute;
-    top: 110%;
-    left: 18%;
+    top: 65%;
+    left: 16%;
 }
 .pupIzq {
     background-color: black;
@@ -69,7 +69,7 @@ div{
     height: 3vw;
     border-radius: 50vw;
     position: absolute;
-    top: 90%;
+    top: 48%;
     left: 17%;
 }
 .pupDer {
@@ -78,7 +78,7 @@ div{
     height: 3vw;
     border-radius: 50vw;
     position: absolute;
-    top: 90%;
+    top: 48%;
     left: 30%;
 }
 .pelo1 {
@@ -87,7 +87,7 @@ div{
     height: 8vw;
     border-radius: 50vw;
     position: absolute;
-    top: 60%;
+    top: 23%;
     left: 10%;
 }
 .pelo2 {
@@ -96,7 +96,7 @@ div{
     height: 8vw;
     border-radius: 50vw;
     position: absolute;
-    top: 55%;
+    top: 18%;
     left: 17%;
 }
 .pelo3 {
@@ -105,7 +105,7 @@ div{
     height: 8vw;
     border-radius: 50vw;
     position: absolute;
-    top: 53%;
+    top: 14%;
     left: 24%;
 }
 .pelo4 {
@@ -114,7 +114,7 @@ div{
     height: 8vw;
     border-radius: 50vw;
     position: absolute;
-    top: 55%;
+    top: 18%;
     left: 31%;
 }
 .pelo5 {
@@ -123,6 +123,6 @@ div{
     height: 8vw;
     border-radius: 50vw;
     position: absolute;
-    top: 62%;
+    top: 23%;
     left: 36%;
 }
