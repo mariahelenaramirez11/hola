@@ -34,8 +34,25 @@ div{
     width: 10vw;
     height: 10vw;
     border-radius: 60vw;
-    position: absolute
+    position: absolute;
+    transform-origin: center;
+    animation: parpadear 2s infinite;
+    overflow: hidden;
 }
+.ojos {
+    transform-origin: center;
+    animation: parpadear 3s infinite
+}
+@keyframes parpadear {
+    0%, 90%, 100% {
+        transform: scaleY(1); /* ojo abierto */
+    }
+
+    95% {
+        transform: scaleY(0.1); /* ojo cerrado */
+    }
+}
+
 #ojoIzq {
     top: 40%;
     left: 15%;
@@ -44,16 +61,31 @@ div{
     top: 40%;
     left: 28%;
 }
+#ojoDer {
+    animation: parpadear 3.5s infinite;
+}
+
 .lengua {
     background-color: rgb(249, 121, 121);
     width: 17vw;
     height: 10vw;
     border-radius: 40vw;
-    transform:rotateZ(270deg);
     position:absolute;
     top: 72%;
     left: 18%;
+    animation: mover 0.5s infinite alternate;
 }
+@keyframes mover {
+  from { 
+    transform: rotateZ(270deg) translateY(0);
+  }
+  to {   
+    transform: rotateZ(270deg) translateY(3vw);
+  }
+}
+
+
+
 .boca {
     width: 20vw;
     height: 10vw;
